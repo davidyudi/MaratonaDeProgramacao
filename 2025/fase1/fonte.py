@@ -1,0 +1,8 @@
+t= int(input())
+v= int(input())
+c = int(input())
+m = int(input())
+n1 = (c * (t) * 2) + (m * (2*t) * 2)
+n2 = (v * t * 2) + (m * t * 2)
+n3 = (v * (2 * t) *2) + (c*t*2)
+print(min(n1,n2,n3))
